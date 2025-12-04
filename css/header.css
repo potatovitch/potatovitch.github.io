@@ -1,0 +1,55 @@
+@import "palette.css";
+
+html{
+    background-color: var(--base);
+    color: var(--text);
+}
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    padding: 1em;
+    border-radius: 16px;
+
+    background-color: var(--mantle);
+}
+
+#headerlist{
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: fit-content;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex-direction: row-reverse;
+}
+
+header ul li{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1em;
+    flex-wrap: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--text);
+}
+
+a:hover{
+    color: var(--subtext0);
+}
+
+
+

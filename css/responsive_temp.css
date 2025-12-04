@@ -1,0 +1,6 @@
+@media (width < 500px) {
+    #navnom{
+        display: none;
+    }
+}
+

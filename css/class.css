@@ -1,0 +1,10 @@
+.caps{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.milieu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
