@@ -12,10 +12,12 @@ button{
     height: 70px;
 }
 
-button{
+button>a{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 .button_transp{
