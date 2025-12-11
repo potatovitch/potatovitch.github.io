@@ -1,0 +1,33 @@
+@import "button.css";
+@import "div.css";
+
+.div_b_color{
+    border-style: solid;
+    border-radius: var(--div-radius);
+    border-width: 2px;
+    border-color: var(--text);
+}
+.button_b_color{
+    border-style: solid;
+    border-radius: var(--button-radius);
+    border-width: 2px;
+    border-color: var(--text);
+}
+.b_jaune{
+    border-color: var(--peach);
+}
+.b_rouge{
+    border-color: var(--red);
+}
+.b_vert{
+    border-color: var(--green);
+}
+.b_violet{
+    border-color: var(--mauve);
+}
+.b_bleu{
+    border-color: var(--sapphire);
+}
+.b_beige{
+    border-color: var(--flamingo);
+}

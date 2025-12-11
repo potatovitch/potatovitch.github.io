@@ -1,10 +1,5 @@
 @import "palette.css";
 
-html{
-    background-color: var(--base);
-    color: var(--text);
-}
-
 header{
     display: flex;
     flex-wrap: nowrap;

@@ -30,3 +30,46 @@
     --mantle : #181825;
     --crust : #11111b;
 }
+
+.jaune{
+    color: var(--yellow) !important; 
+}
+.jaune:hover{
+    color: var(--peach) !important;
+}
+
+.rouge{
+    color: var(--maroon) !important;
+}
+.rouge:hover{
+    color: var(--red) !important;
+}
+
+.vert{
+    color: var(--teal) !important;
+}
+.vert:hover{
+    color: var(--green) !important;
+}
+
+.violet{
+    color: var(--lavender) !important;
+}
+.violet:hover{
+    color: var(--mauve) !important;
+}
+
+.bleu{
+    color: var(--blue) !important;
+}
+.bleu:hover{
+    color: var(--sky) !important;
+}
+
+
+.beige{
+    color: var(--flamingo) !important;
+}
+.beige:hover{
+    color: var(--rosewater) !important;
+}

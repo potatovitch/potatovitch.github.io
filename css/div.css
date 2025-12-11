@@ -1,0 +1,24 @@
+@import "palette.css";
+
+:root{
+    --div-radius: 5px;
+}
+
+.div_transp{
+    background-color: var(--mantle);
+    border-radius: var(--div-radius);
+}
+
+
+div{
+    min-width: fit-content;
+
+    width: 100px;
+    height: 70px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
