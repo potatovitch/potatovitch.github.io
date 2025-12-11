@@ -29,10 +29,28 @@ a, a:visited{
     text-decoration: none;
 }
 
+/* transitions */
+
 div:hover:has(>button){
     border-radius: var(--button-hover);
+
+    transition: all ease-in-out 0.2s;
     
     button{
         border-radius: var(--button-hover);
+        transition: all ease-in-out 0.2s;
+
+    }
+    
+}
+
+div:not(hover:has(>button)){
+    transition: all ease-in-out 0.2s;
+    
+    button{
+        transition: all ease-in-out 0.2s;
+
     }
 }
+
+
