@@ -1,24 +1,43 @@
 @import "palette.css";
 
-:root{
+:root {
     --div-radius: 5px;
 }
 
-.div_transp{
+.div_transp {
+    display: flex;
+    flex-direction: column;
+    
     background-color: var(--mantle);
     border-radius: var(--div-radius);
 }
 
+hr {
+    width: 85%;
+}
 
-div{
+
+div {
     min-width: fit-content;
 
     width: 100px;
     height: 70px;
 }
 
-div{
+div {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.line_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
