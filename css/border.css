@@ -1,33 +1,67 @@
 @import "button.css";
 @import "div.css";
 
-.div_b_color{
+.div_b_color {
     border-style: solid;
     border-radius: var(--div-radius);
     border-width: 2px;
     border-color: var(--text);
 }
-.button_b_color{
+
+.button_b_color {
     border-style: solid;
     border-radius: var(--button-radius);
     border-width: 2px;
     border-color: var(--text);
 }
-.b_jaune{
+
+.b_jaune {
     border-color: var(--peach);
 }
-.b_rouge{
+
+.b_rouge {
     border-color: var(--red);
 }
-.b_vert{
+
+.b_vert {
     border-color: var(--green);
 }
-.b_violet{
+
+.b_violet {
     border-color: var(--mauve);
 }
-.b_bleu{
+
+.b_bleu {
     border-color: var(--sapphire);
 }
-.b_beige{
+
+.b_beige {
     border-color: var(--flamingo);
+}
+
+
+.hover_glow:hover {
+    transform: translateY(-4px);
+    transition: all ease-in-out 0.2s;
+
+    box-shadow: 0 2px 14px var(--text);
+}
+.hover_glow:hover:is(.b_vert) {
+    box-shadow: 0 2px 14px var(--green);
+}
+.hover_glow:hover:is(.b_rouge) {
+    box-shadow: 0 2px 14px var(--red);
+}
+.hover_glow:hover:is(.b_violet) {
+    box-shadow: 0 2px 14px var(--mauve);
+}
+.hover_glow:hover:is(.b_bleu) {
+    box-shadow: 0 2px 14px var(--sapphire);
+}
+.hover_glow:hover:is(.b_beige) {
+    box-shadow: 0 2px 14px var(--flamingo);
+}
+
+.hover_glow:not(:hover) {
+    transition: all ease-in-out 0.2s;
 }
