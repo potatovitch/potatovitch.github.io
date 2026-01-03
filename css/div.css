@@ -10,6 +10,11 @@
     
     background-color: var(--mantle);
     border-radius: var(--div-radius);
+
+    height: 100%;
+    width: 100%;
+    
+    padding: 5px;
 }
 
 hr {
@@ -17,14 +22,14 @@ hr {
 }
 
 div {
-    min-width: fit-content;
-
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-    width: 100px;
-    height: 70px;
+.fit_content{
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 .line_flex {
