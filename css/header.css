@@ -17,6 +17,11 @@ header{
     flex-wrap: nowrap;
 }
 
+.selected{
+    text-decoration-line: underline;
+}
+
+
 ul {
     display: flex;
     flex-wrap: wrap;
