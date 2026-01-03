@@ -13,30 +13,99 @@
     border-radius: var(--button-radius);
     border-width: 2px;
     border-color: var(--text);
+    hr{
+        color: var(--text);
+    }
 }
 
 .b_jaune {
+    border-color: var(--yellow);
+    hr{
+        color: var(--yellow);
+    }
+}
+.b_jaune:hover {
+    transition: all ease-in-out 0.2s;
     border-color: var(--peach);
+    hr{
+        transition: all ease-in-out 0.2s;
+        color: var(--peach);
+    }
 }
 
 .b_rouge {
+    border-color: var(--maroon);
+    hr{
+        color: var(--maroon);
+    }
+}
+.b_rouge:hover {
+    transition: all ease-in-out 0.2s;
     border-color: var(--red);
+    hr{
+        transition: all ease-in-out 0.2s;
+        color: var(--red);
+    }
 }
 
 .b_vert {
+    border-color: var(--teal);
+    hr{
+        color: var(--teal);
+    }
+}
+.b_vert:hover {
+    transition: all ease-in-out 0.2s;
     border-color: var(--green);
+    hr{
+        transition: all ease-in-out 0.2s;
+        color: var(--green);
+    }
 }
 
 .b_violet {
+    border-color: var(--lavender);
+    hr{
+        color: var(--lavender);
+    }
+}
+.b_violet:hover {
+    transition: all ease-in-out 0.2s;
     border-color: var(--mauve);
+    hr{
+        transition: all ease-in-out 0.2s;
+        color: var(--mauve);
+    }
 }
 
 .b_bleu {
+    border-color: var(--sky);
+    hr{
+        color: var(--sky);
+    }
+}
+.b_bleu:hover {
+    transition: all ease-in-out 0.2s;
     border-color: var(--sapphire);
+    hr{
+        transition: all ease-in-out 0.2s;
+        color: var(--sapphire);
+    }
 }
 
 .b_beige {
+    border-color: var(--rosewater);
+    hr{
+        color: var(--rosewater);
+    }
+}
+.b_beige:hover {
+    transition: all ease-in-out 0.2s;
     border-color: var(--flamingo);
+    hr{
+        transition: all ease-in-out 0.2s;
+        color: var(--flamingo);
+    }
 }
 
 
@@ -45,9 +114,13 @@
     transition: all ease-in-out 0.2s;
 
     box-shadow: 0 2px 14px var(--text);
+    
 }
 .hover_glow:hover:is(.b_vert) {
     box-shadow: 0 2px 14px var(--green);
+    hr{
+        color: var(--flamingo);
+    }
 }
 .hover_glow:hover:is(.b_rouge) {
     box-shadow: 0 2px 14px var(--red);

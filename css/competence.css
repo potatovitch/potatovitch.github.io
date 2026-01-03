@@ -3,3 +3,7 @@ main {
     justify-content: space-between;
     flex-direction: row;
 }
+
+section{
+    width: 30%;
+}
