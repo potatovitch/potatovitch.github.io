@@ -138,3 +138,7 @@
 .hover_glow:not(:hover) {
     transition: all ease-in-out 0.2s;
 }
+
+header:is(.b_violet) {
+    border-color: var(--mauve);
+}
