@@ -16,18 +16,15 @@ hr {
     width: 85%;
 }
 
-
 div {
     min-width: fit-content;
 
-    width: 100px;
-    height: 70px;
-}
-
-div {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 100px;
+    height: 70px;
 }
 
 .line_flex {
