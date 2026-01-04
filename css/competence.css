@@ -1,9 +1,21 @@
+@import "transi.css";
+
 main {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-section{
-    width: 30%;
+section {
+    width: 32.5%;
+}
+
+
+
+#hardskill {
+    animation-delay: 0.05s;
+}
+
+#softskill {
+    animation-delay: 0.1s;
 }

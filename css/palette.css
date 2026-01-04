@@ -35,6 +35,8 @@
     color: var(--yellow) !important; 
 }
 .jaune:hover{
+    transition: all ease-in-out 0.2s;
+
     color: var(--peach) !important;
 }
 
@@ -42,6 +44,8 @@
     color: var(--maroon) !important;
 }
 .rouge:hover{
+    transition: all ease-in-out 0.2s;
+
     color: var(--red) !important;
 }
 
@@ -49,6 +53,7 @@
     color: var(--teal) !important;
 }
 .vert:hover{
+    transition: all ease-in-out 0.2s;
     color: var(--green) !important;
 }
 
@@ -56,6 +61,7 @@
     color: var(--lavender) !important;
 }
 .violet:hover{
+    transition: all ease-in-out 0.2s;
     color: var(--mauve) !important;
 }
 
@@ -63,6 +69,7 @@
     color: var(--blue) !important;
 }
 .bleu:hover{
+    transition: all ease-in-out 0.2s;
     color: var(--sky) !important;
 }
 

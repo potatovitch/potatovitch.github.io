@@ -39,17 +39,21 @@ header ul li{
     flex-wrap: none;
 }
 
-a{
+header a{
     text-decoration: none;
     color: var(--text);
 }
 
-a:visited{
+header a:visited{
     color: var(--text);
 }
 
-a:hover{
+header a:hover{
     color: var(--subtext0);
+}
+
+#sep{
+    color: var(--mauve)
 }
 
 
