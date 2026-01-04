@@ -1,26 +1,42 @@
 .container {
-    display: flexbox;
-
-    flex-direction: column;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
 }
 
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-position: left;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    aspect-ratio: auto ;
+}
+
+/**/
 .box {
+    display: flex;
+    flex-direction: row;
+
     gap: 10px 10px;
     flex-wrap: wrap;
     align-content: space-between;
     flex-grow: 0;
-    justify-content: baseline;
-
 }
 
-.item{
+.item {
     display: flex;
-    min-height: max-content;
-    min-width: fit-content;
-
-    height: auto;
-    width: 45% !important;
+    height: 300px !important;
+    max-width: 45% !important;
 }
+
+/**/
+
+
 
 #scolaire_1 {
     animation-delay: 0.05s;
@@ -40,7 +56,3 @@
     animation-delay: 0.15s;
 }
 
-img{
-    min-height: 150px;
-    min-width: 150px;
-}

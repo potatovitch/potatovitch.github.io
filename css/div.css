@@ -13,6 +13,10 @@
 
     height: 100%;
     width: 100%;
+
+    margin: 0;
+    padding: 0;
+
 }
 
 hr {
@@ -35,21 +39,23 @@ div {
     flex-direction: row;
     justify-content: space-between;
 }
-.line_flex_around{
+
+.line_flex_around {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
-    section{
+    section {
         width: 100%;
     }
-    h2{
+
+    h2 {
         display: flex;
         width: 100%;
         justify-content: center;
     }
 
-    .vl{
+    .vl {
         margin-inline: 20px;
     }
 }
