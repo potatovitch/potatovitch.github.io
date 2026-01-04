@@ -37,9 +37,34 @@ div {
     flex-direction: row;
     justify-content: space-between;
 }
+.line_flex_around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+    section{
+        width: 100%;
+    }
+    h2{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .vl{
+        margin-inline: 20px;
+    }
+}
 
 .col_flex {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.vl:is(.b_violet) {
+    border-left: 2px solid var(--mauve);
+    height: auto;
+    border-radius: 1px;
 }
