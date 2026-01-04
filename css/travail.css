@@ -1,0 +1,39 @@
+.container {
+    display: flexbox;
+
+    flex-direction: column;
+}
+
+.box {
+    gap: 10px 10px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-grow: 0;
+}
+
+.item{
+    display: flex;
+    min-height: max-content;
+    min-width: fit-content;
+
+    height: auto;
+    width: 45% !important;
+}
+
+#scolaire_1 {
+    animation-delay: 0.05s;
+}
+
+#scolaire_2,
+#perso_1 {
+    animation-delay: 0.1s;
+}
+
+#scolaire_3,
+#perso_2 {
+    animation-delay: 0.1s;
+}
+
+#perso_3 {
+    animation-delay: 0.15s;
+}

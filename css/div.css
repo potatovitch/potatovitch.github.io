@@ -13,8 +13,6 @@
 
     height: 100%;
     width: 100%;
-
-    padding: 5px;
 }
 
 hr {
@@ -41,7 +39,6 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 
     section{
         width: 100%;

@@ -6,11 +6,29 @@
 
     to {
         opacity: 100%;
-        transform: translate(0px, -0px);
+        transform: translate(0px, 0px);
     }
 }
 
 .fade-in {
-    opacity: 0;
+    opacity: 0.1;
     animation: sec_transparent 0.35s ease-in-out forwards;
+}
+
+
+@keyframes fade_down {
+    from {
+        opacity: 0%;
+        transform: translate(0px, -6px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translate(0px, 0px);
+    }
+}
+
+.fade-down {
+    opacity: 0;
+    animation: fade_down 0.35s ease-in-out forwards;
 }

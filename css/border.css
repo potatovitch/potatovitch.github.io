@@ -111,7 +111,7 @@
 
 .hover_glow:hover {
     transform: translateY(-4px);
-    transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.1s;
 
     box-shadow: 0 2px 14px var(--text);
     
@@ -129,14 +129,14 @@
     box-shadow: 0 2px 14px var(--mauve);
 }
 .hover_glow:hover:is(.b_bleu) {
-    box-shadow: 0 2px 14px var(--sapphire);
+    box-shadow: 0 2px 10px var(--sapphire);
 }
 .hover_glow:hover:is(.b_beige) {
     box-shadow: 0 2px 14px var(--flamingo);
 }
 
 .hover_glow:not(:hover) {
-    transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.1s;
 }
 
 header:is(.b_violet) {
