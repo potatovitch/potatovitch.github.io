@@ -1,20 +1,20 @@
 .container {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-columns: auto auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     column-gap: 10px;
+    width: 100%;
 }
 
 .image {
     display: block;
     width: 100%;
     height: auto;
-    object-position: left;
+    object-fit: cover;
+    object-position: center left;
     max-width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    aspect-ratio: auto ;
 }
 
 /**/
@@ -33,6 +33,8 @@
     height: 300px !important;
     max-width: 45% !important;
 }
+
+/* removed: wrappers now use existing .div_transp and .div_b_color classes */
 
 /**/
 
