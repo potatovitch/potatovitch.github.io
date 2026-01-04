@@ -119,7 +119,7 @@
 .hover_glow:hover:is(.b_vert) {
     box-shadow: 0 2px 14px var(--green);
     hr{
-        color: var(--flamingo);
+        color: var(--green);
     }
 }
 .hover_glow:hover:is(.b_rouge) {
