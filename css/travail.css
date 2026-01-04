@@ -9,6 +9,8 @@
     flex-wrap: wrap;
     align-content: space-between;
     flex-grow: 0;
+    justify-content: baseline;
+
 }
 
 .item{
