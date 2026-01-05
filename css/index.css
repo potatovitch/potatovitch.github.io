@@ -1,4 +1,33 @@
 p{
     text-align: justify;
     text-justify: inter-word;
+    padding: 30px;
+}
+
+#contact{
+    font-weight: bolder;
+
+    width: 50%;
+
+    #contact_div_child {
+        height: 600px;
+        width: 100%;
+    }
+}
+
+#contact:hover{
+    transition: all 0.15s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+    :is(.violet){
+        color: var(--mauve) !important;
+        transition: all 0.15s ease-in-out;
+    }
+}
+#contact:not(:hover){
+    transition: all 0.15s ease-in-out;
+
+    :is(.violet){
+        transition: all 0.15s ease-in-out;
+    }
 }

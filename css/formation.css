@@ -57,20 +57,30 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 
 }
+#formation:not(:hover) {
+    transition: all 0.15s ease-in-out;
+}
 
 #formation:hover .ball {
     background-color: var(--peach) !important;
-    transition: background-color 0.18s ease;
+    transition: background-color 0.15s ease-in-out;
 }
 
 #formation:hover .line {
     background-color: var(--peach) !important;
-    transition: background-color 0.18s ease;
+    transition: background-color 0.15s ease-in-out;
 }
 
 #formation:hover .connector {
     background-color: var(--peach) !important;
-    transition: background-color 0.18s ease;
+    transition: background-color 0.15s ease-in-out;
+}
+#formation:hover .jaune {
+    color: var(--peach) !important;
+    transition: all 0.15s ease-in-out;
+}
+#formation:not(:hover) .jaune {
+    transition: all 0.15s ease-in-out;
 }
 
 .line_flex_center {
@@ -78,10 +88,19 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
+
+    img{
+        max-height: 30px;
+        border-radius: 4px;
+    }
 }
 
 
 main {
     height: fit-content;
     max-height: 100%;
+}
+
+h2{
+    transform: translateY(-75px);
 }

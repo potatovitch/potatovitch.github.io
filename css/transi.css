@@ -32,3 +32,20 @@
     opacity: 0;
     animation: fade_down 0.35s ease-in-out forwards;
 }
+
+@keyframes fade_up {
+    from {
+        opacity: 0%;
+        transform: translate(0px, 6px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translate(0px, 0px);
+    }
+}
+
+.fade-up {
+    opacity: 0;
+    animation: fade_up 0.35s ease-in-out forwards;
+}

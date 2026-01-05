@@ -13,8 +13,8 @@ section {
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 20px;
+    row-gap: 20px;
     width: 100%;
 }
 
@@ -30,4 +30,26 @@ section {
     transition: all 0.15s ease-in-out;
 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+#div_soft,
+#div_hard{
+    margin: 100px !important;
+    min-height: fit-content;
+    min-width: fit-content;
+
+    max-width: max-content;
+    max-height: max-content;
+}
+
+#div_soft img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scale: 1.22;
 }

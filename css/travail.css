@@ -45,23 +45,12 @@ h2 {
     margin-bottom: 15px;
 }
 
-#scolaire_1 {
-    animation-delay: 0.05s;
-}
 
-#scolaire_2,
-#perso_1 {
-    animation-delay: 0.1s;
-}
-
-#scolaire_3,
-#perso_2 {
-    animation-delay: 0.1s;
-}
-
-#perso_3 {
+#per {
     animation-delay: 0.15s;
 }
+
+
 
 .info_box {
     display: block;
@@ -84,8 +73,7 @@ h2 {
     margin-top: 10px;
     display: flex;
     gap: 10px;
-
-
+    justify-content: flex-start;
 }
 
 .lang p {
@@ -112,8 +100,4 @@ h2 {
 #none{
     background-color: var(--mantle);
     color: var(--mantle); 
-}
-
-img {
-    display: none;
 }
