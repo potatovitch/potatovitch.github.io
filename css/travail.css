@@ -33,8 +33,6 @@
     }
 }
 
-
-
 #machine {
     object-position: top left;
 }
@@ -46,8 +44,6 @@
 h2 {
     margin-bottom: 15px;
 }
-
-
 
 #scolaire_1 {
     animation-delay: 0.05s;
@@ -65,4 +61,27 @@ h2 {
 
 #perso_3 {
     animation-delay: 0.15s;
+}
+
+.info_box {
+    display: block;
+    padding: 15px;
+    font-weight: bolder;
+    align-self: self-start;
+}
+
+#date3::after,
+#pg3::after {
+    background-image: url(../assets/croix.png);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    transform: translateY(5px);
+    content:"";
+}
+
+#img4 {
+    scale: 1.01;
+    transform: translateY(-3.5px);
 }
