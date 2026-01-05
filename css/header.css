@@ -50,6 +50,11 @@ header a:visited{
 
 header a:hover{
     color: var(--subtext0);
+    transition: all 0.15s ease-in-out;
+
+}
+header a:not(:hover){
+    transition: all 0.15s ease-in-out;
 }
 
 #sep{

@@ -11,7 +11,7 @@
 }
 
 .fade-in {
-    opacity: 0.1;
+    opacity: 0.0;
     animation: sec_transparent 0.35s ease-in-out forwards;
 }
 

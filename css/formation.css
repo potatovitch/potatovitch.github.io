@@ -20,7 +20,7 @@
 
 .connector_row {
     display: flex;
-    
+
 }
 
 .connector_wrap {
@@ -37,11 +37,11 @@
     border-radius: 2px;
     margin-top: -15px;
     /* lift so the line crosses the center of the balls */
-    
+
 }
 
 
-#loisir {
+#formation {
     height: 600px;
     width: 50%;
 
@@ -49,6 +49,28 @@
         height: 600px;
         width: 100%;
     }
+}
+
+/* Hover state: change balls, lines and connectors to peach */
+#formation:hover {
+    transition: all 0.15s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+}
+
+#formation:hover .ball {
+    background-color: var(--peach) !important;
+    transition: background-color 0.18s ease;
+}
+
+#formation:hover .line {
+    background-color: var(--peach) !important;
+    transition: background-color 0.18s ease;
+}
+
+#formation:hover .connector {
+    background-color: var(--peach) !important;
+    transition: background-color 0.18s ease;
 }
 
 .line_flex_center {

@@ -1,0 +1,26 @@
+#contact{
+    height: 600px;
+    width: 50%;
+
+    #contact_div_child {
+        height: 600px;
+        width: 100%;
+    }
+}
+
+#contact:hover{
+    transition: all 0.15s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+    :is(.rouge){
+        transition: all 0.15s ease-in-out;
+        color: var(--red) !important;
+    }
+}
+#contact:not(:hover){
+    transition: all 0.15s ease-in-out;
+
+    :is(.rouge){
+        transition: all 0.15s ease-in-out;
+    }
+}
