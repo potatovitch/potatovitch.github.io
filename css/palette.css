@@ -66,11 +66,11 @@
 }
 
 .bleu{
-    color: var(--blue) !important;
+    color: var(--sapphire) !important;
 }
 .bleu:hover{
     transition: all ease-in-out 0.2s;
-    color: var(--sky) !important;
+    color: var(--blue) !important;
 }
 
 

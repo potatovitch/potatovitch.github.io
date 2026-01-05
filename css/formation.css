@@ -1,0 +1,65 @@
+.ball {
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 50% !important;
+    background-color: var(--yellow) !important;
+}
+
+.line {
+    width: 20px !important;
+    height: 2px !important;
+    background-color: var(--yellow) !important;
+}
+
+/* vertical connector between balls */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.connector_row {
+    display: flex;
+    
+}
+
+.connector_wrap {
+    width: 25px;
+    /* same as .ball width */
+    display: flex;
+}
+
+.connector {
+    width: 3px;
+    height: 35px;
+    /* increased to reach ball centers */
+    background-color: var(--yellow);
+    border-radius: 2px;
+    margin-top: -15px;
+    /* lift so the line crosses the center of the balls */
+    
+}
+
+
+#loisir {
+    height: 600px;
+    width: 50%;
+
+    #forma_div_child {
+        height: 600px;
+        width: 100%;
+    }
+}
+
+.line_flex_center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+main {
+    height: fit-content;
+    max-height: 100%;
+}

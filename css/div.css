@@ -4,6 +4,7 @@
     --div-radius: 5px;
 }
 
+
 .div_transp {
     display: flex;
     flex-direction: column;
@@ -17,6 +18,8 @@
     margin: 0;
     padding: 0;
 
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 hr {
@@ -66,8 +69,8 @@ div {
     justify-content: space-between;
 }
 
-.vl:is(.b_violet) {
-    border-left: 2px solid var(--mauve);
+.vl:is(.b_vert) {
+    border-left: 2px solid var(--teal);
     height: auto;
     border-radius: 1px;
 }

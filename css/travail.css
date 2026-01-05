@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     column-gap: 10px;
+    row-gap: 10px;
     width: 100%;
 }
 
@@ -10,33 +11,41 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    object-position: center left;
     max-width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    aspect-ratio: 800 / 600;
 }
 
-/**/
-.box {
-    display: flex;
-    flex-direction: row;
+.div_transp:hover {
 
-    gap: 10px 10px;
-    flex-wrap: wrap;
-    align-content: space-between;
-    flex-grow: 0;
+    .image {
+        transform: scale(1.05);
+        transition: transform 0.15s ease;
+    }
 }
 
-.item {
-    display: flex;
-    height: 300px !important;
-    max-width: 45% !important;
+.div_transp:not(:hover) {
+
+    .image {
+        transition: transform 0.15s ease;
+    }
 }
 
-/* removed: wrappers now use existing .div_transp and .div_b_color classes */
 
-/**/
+
+#machine {
+    object-position: top left;
+}
+
+#laby {
+    object-position: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
 
 
 
@@ -57,4 +66,3 @@
 #perso_3 {
     animation-delay: 0.15s;
 }
-
