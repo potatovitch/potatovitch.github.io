@@ -21,7 +21,6 @@ header{
     text-decoration-line: underline;
 }
 
-
 ul {
     display: flex;
     flex-wrap: wrap;
@@ -60,6 +59,3 @@ header a:not(:hover){
 #sep{
     color: var(--mauve)
 }
-
-
-

@@ -1,4 +1,6 @@
 #contact{
+    font-weight: bolder;
+
     height: 600px;
     width: 50%;
 
@@ -23,4 +25,8 @@
     :is(.rouge){
         transition: all 0.15s ease-in-out;
     }
+}
+
+.underline{
+    text-decoration-line: underline;
 }
